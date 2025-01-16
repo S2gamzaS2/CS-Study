@@ -86,7 +86,7 @@
 - Filter, Interceptor
 - [@Autowired 주입 방법별 차이(Field, Setter, Constructor Injection)](https://github.com/S2gamzaS2/CS-Study/blob/main/Spring/%40Autowired%20%EC%A3%BC%EC%9E%85%20%EB%B0%A9%EB%B2%95%EB%B3%84%20%EC%B0%A8%EC%9D%B4(Field%2C%20Setter%2C%20Constructor%20Injection).md)
 - [Spring vs Spring Boot](https://github.com/S2gamzaS2/CS-Study/blob/main/Spring/Spring%20vs%20Spring%20Boot.md)
-- [Web MVC 요청 처리 과정(DispatcherServlet을 중심으로)](https://github.com/S2gamzaS2/CS-Study/blob/main/Spring/%5BSpring%5D%20Web%20MVC%20%EC%9A%94%EC%B2%AD%20%EC%B2%98%EB%A6%AC%20%EA%B3%BC%EC%A0%95(DispatcherServlet%EC%9D%84%20%EC%A4%91%EC%8B%AC%EC%9C%BC%EB%A1%9C).md)
+- [Web MVC 요청 처리 과정(DispatcherServlet을 중심으로)](https://github.com/S2gamzaS2/CS-Study/blob/main/Spring/Web%20MVC%20%EC%9A%94%EC%B2%AD%20%EC%B2%98%EB%A6%AC%20%EA%B3%BC%EC%A0%95(DispatcherServlet%EC%9D%84%20%EC%A4%91%EC%8B%AC%EC%9C%BC%EB%A1%9C).md)
 - [@Controller vs @RestController](https://github.com/S2gamzaS2/CS-Study/blob/main/Spring/%40Controller%20vs%20%40RestController.md)
 - [ViewResolver](https://github.com/S2gamzaS2/CS-Study/blob/main/Spring/ViewResolver.md)
 - @Valid 사용해서 DTO 검증
