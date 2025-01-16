@@ -64,7 +64,7 @@
 - [Error vs Exception](https://github.com/S2gamzaS2/CS-Study/blob/main/Java/Error%20vs%20Exception.md)
 - [Checked vs UnChecked Exception](https://github.com/S2gamzaS2/CS-Study/blob/main/Java/Checked%20vs%20UnChecked%20Exception.md)
 - [비동기처리 문법 비교](https://github.com/S2gamzaS2/CS-Study/blob/main/Java/%5BJava%5D%20%EB%B9%84%EB%8F%99%EA%B8%B0%EC%B2%98%EB%A6%AC%20%EB%AC%B8%EB%B2%95%20%EB%B9%84%EA%B5%90.md)
-- [Java 8/Java 11/Java 17](https://github.com/S2gamzaS2/CS-Study/blob/main/Java/Java%208%2CJava%2011%2CJava%2017)
+- [Java 8/Java 11/Java 17](https://github.com/S2gamzaS2/CS-Study/blob/main/Java/Java%208%2CJava%2011%2CJava%2017.md)
 - [Lambda(+ Functional Interface)](https://github.com/S2gamzaS2/CS-Study/blob/main/Java/Lambda(%2B%20Functional%20Interface).md)
 - [Stream API](https://github.com/S2gamzaS2/CS-Study/blob/main/Java/Stream%20API.md)
 - [Default Method](https://github.com/S2gamzaS2/CS-Study/blob/main/Java/Default%20Method.md)
