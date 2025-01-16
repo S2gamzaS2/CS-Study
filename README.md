@@ -97,7 +97,7 @@
 - [영속성 컨텍스트(캐시, 동일성보장, 변경감지, 트랜잭션 지연)](https://github.com/S2gamzaS2/CS-Study/blob/main/JPA/%EC%98%81%EC%86%8D%EC%84%B1%20%EC%BB%A8%ED%85%8D%EC%8A%A4%ED%8A%B8(%EC%BA%90%EC%8B%9C%2C%20%EB%8F%99%EC%9D%BC%EC%84%B1%EB%B3%B4%EC%9E%A5%2C%20%EB%B3%80%EA%B2%BD%EA%B0%90%EC%A7%80%2C%20%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98%20%EC%A7%80%EC%97%B0).md)
 - [Eager, Lazy Loading](https://github.com/S2gamzaS2/CS-Study/blob/main/JPA/Eager%2C%20Lazy%20Loading.md)
 - n+1 문제
-- [다대다 해결 전략](https://github.com/S2gamzaS2/CS-Study/blob/main/JPA/%5BJPA%5D%20%EB%8B%A4%EB%8C%80%EB%8B%A4%20%ED%95%B4%EA%B2%B0%20%EC%A0%84%EB%9E%B5.md)
+- [다대다 해결 전략](https://github.com/S2gamzaS2/CS-Study/blob/main/JPA/%EB%8B%A4%EB%8C%80%EB%8B%A4%20%ED%95%B4%EA%B2%B0%20%EC%A0%84%EB%9E%B5.md)
 - JPA의 캐시
 
 <br>
