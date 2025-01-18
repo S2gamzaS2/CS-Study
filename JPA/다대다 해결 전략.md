@@ -1,0 +1,126 @@
+# [JPA] 다대다 해결 전략
+
+## **@ManyToMany 어노테이션 사용**
+
+실무에서는 권장되지 않음
+
+실무에서는 대다수 경우 중간 테이블에 컬럼(생성일, 상태, 순서 등) 같은 추가 정보를 저장하는 요구가 발생
+
+```java
+@Entity
+public class Member {
+    @Id @GeneratedValue
+    private Long id;
+    
+    @ManyToMany
+    @JoinTable(name = "member_product")
+    private List<Product> products = new ArrayList<>();
+}
+
+@Entity
+public class Product {
+    @Id @GeneratedValue
+    private Long id;
+    
+    @ManyToMany(mappedBy = "products")
+    private List<Member> members = new ArrayList<>();
+}
+```
+
+- 한계
+    - 연결 테이블에 추가 정보를 넣을 수 없음
+    - 예상치 못한 쿼리가 발생할 수 있음
+
+## **연결 엔티티 사용 (권장 방식)**
+
+```java
+@Entity
+public class Member {
+    @Id @GeneratedValue
+    private Long id;
+    
+    @OneToMany(mappedBy = "member")
+    private List<MemberProduct> memberProducts = new ArrayList<>();
+}
+
+@Entity
+public class Product {
+    @Id @GeneratedValue
+    private Long id;
+    
+    @OneToMany(mappedBy = "product")
+    private List<MemberProduct> memberProducts = new ArrayList<>();
+}
+
+@Entity
+public class MemberProduct {
+    @Id @GeneratedValue
+    private Long id;
+    
+    @ManyToOne
+    @JoinColumn(name = "member_id")
+    private Member member;
+    
+    @ManyToOne
+    @JoinColumn(name = "product_id")
+    private Product product;
+    
+    private LocalDateTime orderDateTime;
+}
+
+```
+
+- 연결 테이블에 추가 정보를 넣을 수 있음
+- 복잡한 비즈니스 로직 구현 가능
+- 쿼리 최적화 용이
+
+## **복합 키 사용**
+
+```java
+@Entity
+public class MemberProduct {
+    @EmbeddedId
+    private MemberProductId id;
+    
+    @MapsId("memberId")
+    @ManyToOne
+    private Member member;
+    
+    @MapsId("productId")
+    @ManyToOne
+    private Product product;
+    
+    private LocalDateTime orderDateTime;
+}
+
+@Embeddable
+public class MemberProductId implements Serializable {
+    private Long memberId;
+    private Long productId;
+}
+```
+
+- 복합 키를 사용하여 연결 테이블의 기본 키를 구성
+- @EmbeddedId와 @MapsId를 사용하여 복합 키 매핑
+
+## 양방향 vs 단방향 매핑
+
+1. **양방향**
+    - Member ↔ MemberTeam ↔ Team 형태로, Member와 Team이 각각 @OneToMany(mappedBy=...)를 갖고 MemberTeam에서는 @ManyToOne을 갖는 구조
+    - 두 엔티티에서 모두 참조할 수 있으니 조회 편의성이 높음
+    - JPA에서는 연관관계의 주인을 하나로 설정해주어야 한다(mappedBy 사용)
+2. **단방향**
+    - MemberTeam → Member, Team만 갖고, Member와 Team은 MemberTeam을 참조하지 않을 수도 있음
+    - 매핑이 단순해지고 얽힘이 줄지만, 양쪽에서 검색할 때는 JPQL이나 Query DSL로 직접 조인해야 함
+    - 조회 편의성 vs 매핑 단순성 관점에서 적절히 선택
+
+---
+
+## Best Practice
+
+1. **연결 엔티티 방식**
+    - 스펙 변경(추가 컬럼 등)에 유리
+    - 실무에서 관계 테이블에 아무 칼럼도 없다는 상황이 드뭄
+2. **지연 로딩(LAZY) 사용**
+    - 다대다나 다대일 관계는 즉시 로딩(EAGER) 대신 LAZY로 설정하는 것이 대부분의 경우 권장
+    - EAGER를 남발하면 예상치 못한 N+1 문제나 쿼리 폭증이 발생할 수 있음

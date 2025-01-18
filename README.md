@@ -64,7 +64,7 @@
 - [Error vs Exception](https://github.com/S2gamzaS2/CS-Study/blob/main/Java/Error%20vs%20Exception.md)
 - [Checked vs UnChecked Exception](https://github.com/S2gamzaS2/CS-Study/blob/main/Java/Checked%20vs%20UnChecked%20Exception.md)
 - [비동기처리 문법 비교](https://github.com/S2gamzaS2/CS-Study/blob/main/Java/%5BJava%5D%20%EB%B9%84%EB%8F%99%EA%B8%B0%EC%B2%98%EB%A6%AC%20%EB%AC%B8%EB%B2%95%20%EB%B9%84%EA%B5%90.md)
-- Java 8/Java 11/Java 17
+- [Java 8/Java 11/Java 17](https://github.com/S2gamzaS2/CS-Study/blob/main/Java/Java%208%2CJava%2011%2CJava%2017.md)
 - [Lambda(+ Functional Interface)](https://github.com/S2gamzaS2/CS-Study/blob/main/Java/Lambda(%2B%20Functional%20Interface).md)
 - [Stream API](https://github.com/S2gamzaS2/CS-Study/blob/main/Java/Stream%20API.md)
 - [Default Method](https://github.com/S2gamzaS2/CS-Study/blob/main/Java/Default%20Method.md)
@@ -76,8 +76,8 @@
 - [CountDownLatch & CyclicBarrier](https://github.com/S2gamzaS2/CS-Study/blob/main/Java/CountDownLatch%20%26%20CycleBarrier.md)
 
 ### 🔸 Spring
-- 웹 애플리케이션 이해
-- 서블릿
+- [웹 애플리케이션 이해](https://github.com/S2gamzaS2/CS-Study/blob/main/Spring/%EC%9B%B9%20%EC%95%A0%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98%20%EC%9D%B4%ED%95%B4.md)
+- [Servlet](https://github.com/S2gamzaS2/CS-Study/blob/main/Spring/Servlet.md)
 - JSP
 - MVC 패턴
 - [ApplicationContext](https://github.com/S2gamzaS2/CS-Study/blob/main/Spring/ApplicationContext.md)
@@ -85,19 +85,19 @@
 - [Bean(Scope)](https://github.com/S2gamzaS2/CS-Study/blob/main/Spring/Bean(Scope).md)
 - Filter, Interceptor
 - [@Autowired 주입 방법별 차이(Field, Setter, Constructor Injection)](https://github.com/S2gamzaS2/CS-Study/blob/main/Spring/%40Autowired%20%EC%A3%BC%EC%9E%85%20%EB%B0%A9%EB%B2%95%EB%B3%84%20%EC%B0%A8%EC%9D%B4(Field%2C%20Setter%2C%20Constructor%20Injection).md)
-- Spring vs Spring Boot
-- Web MVC 요청 처리 과정(DispatcherServlet을 중심으로)
-- @Controller vs @RestController
-- ViewResolver
+- [Spring vs Spring Boot](https://github.com/S2gamzaS2/CS-Study/blob/main/Spring/Spring%20vs%20Spring%20Boot.md)
+- [Web MVC 요청 처리 과정(DispatcherServlet을 중심으로)](https://github.com/S2gamzaS2/CS-Study/blob/main/Spring/Web%20MVC%20%EC%9A%94%EC%B2%AD%20%EC%B2%98%EB%A6%AC%20%EA%B3%BC%EC%A0%95(DispatcherServlet%EC%9D%84%20%EC%A4%91%EC%8B%AC%EC%9C%BC%EB%A1%9C).md)
+- [@Controller vs @RestController](https://github.com/S2gamzaS2/CS-Study/blob/main/Spring/%40Controller%20vs%20%40RestController.md)
+- [ViewResolver](https://github.com/S2gamzaS2/CS-Study/blob/main/Spring/ViewResolver.md)
 - @Valid 사용해서 DTO 검증
-- Spring Security 개념, 인증 처리 과정, currentUser 정보
+- [Spring Security 개념, 인증 처리 과정, currentUser 정보](https://github.com/S2gamzaS2/CS-Study/blob/main/Spring/Spring%20Security.md)
 
 ### 🔸 JPA
-- JPA와 Hibernate
-- 영속성 컨텍스트(캐시, 동일성보장, 변경감지, 트랜잭션 지연)
-- Eager, Lazy Loading
+- [JPA와 Hibernate](https://github.com/S2gamzaS2/CS-Study/blob/main/JPA/JPA%EC%99%80%20Hibernate.md)
+- [영속성 컨텍스트(캐시, 동일성보장, 변경감지, 트랜잭션 지연)](https://github.com/S2gamzaS2/CS-Study/blob/main/JPA/%EC%98%81%EC%86%8D%EC%84%B1%20%EC%BB%A8%ED%85%8D%EC%8A%A4%ED%8A%B8(%EC%BA%90%EC%8B%9C%2C%20%EB%8F%99%EC%9D%BC%EC%84%B1%EB%B3%B4%EC%9E%A5%2C%20%EB%B3%80%EA%B2%BD%EA%B0%90%EC%A7%80%2C%20%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98%20%EC%A7%80%EC%97%B0).md)
+- [Eager, Lazy Loading](https://github.com/S2gamzaS2/CS-Study/blob/main/JPA/Eager%2C%20Lazy%20Loading.md)
 - n+1 문제
-- 다대다 해결 전략
+- [다대다 해결 전략](https://github.com/S2gamzaS2/CS-Study/blob/main/JPA/%EB%8B%A4%EB%8C%80%EB%8B%A4%20%ED%95%B4%EA%B2%B0%20%EC%A0%84%EB%9E%B5.md)
 - JPA의 캐시
 
 <br>
