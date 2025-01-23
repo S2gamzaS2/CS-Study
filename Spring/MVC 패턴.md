@@ -1,4 +1,4 @@
-# [JAVA] MVC 패턴
+# [Spring] MVC 패턴
 
 Spring MVC == Spring Web MVC
 

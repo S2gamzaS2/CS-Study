@@ -33,32 +33,37 @@ Spring MVC는 다양한 뷰 기술을 지원합니다.
 
 ---
 
-## 예시: `UrlBasedViewResolver`
+<img width="640" alt="다운로드 (9)" src="https://github.com/user-attachments/assets/1a0d19fb-45f2-4bee-8b41-c4f558e2e70b" />
 
-다음은 **UrlBasedViewResolver**를 설정하는 예제 코드입니다:
+## Spring MVC 뷰 처리 과정
 
-```java
-@Bean
-public UrlBasedViewResolver urlBasedViewResolver() {
-    UrlBasedViewResolver urlBasedViewResolver = new UrlBasedViewResolver();
-    urlBasedViewResolver.setOrder(1);
-    urlBasedViewResolver.setViewClass(JstlView.class);
-    urlBasedViewResolver.setPrefix("/WEB-INF/jsp/sharon/pj/");
-    urlBasedViewResolver.setSuffix(".jsp");
-    return urlBasedViewResolver;
-}
-```
-### 주요 설정 설명
+### 1. **핸들러 어댑터 호출**
+- 핸들러 어댑터를 통해 `new-form`이라는 **논리 뷰 이름**을 획득합니다.
 
-1. **`setOrder(1)`**
-   - 여러 뷰 리졸버가 설정된 경우 이 순서를 사용하여 어떤 리졸버가 먼저 시도되는지 결정한다. 값이 작을수록 먼저 시도된다.
+---
 
-2. **`setViewClass(JstlView.class)`**
-   - 사용할 **뷰 클래스**를 설정합니다. 여기서는 `JstlView` 클래스가 사용되며, JSTL 태그를 지원하는 JSP를 렌더링하는 데 사용됩니다.
+### 2. **ViewResolver 호출**
+- **ViewResolver**를 순서대로 호출하여 `new-form`이라는 뷰 이름에 해당하는 뷰를 찾습니다.
+  1. **BeanNameViewResolver**:
+     - `new-form`이라는 이름의 스프링 빈으로 등록된 뷰를 찾지만, 해당 뷰가 없음.
+  2. **InternalResourceViewResolver**:
+     - 다음으로 호출되어 처리됩니다.
 
-3. **`setPrefix("/WEB-INF/jsp/sharon/pj/")`**
-   - 반환된 뷰 이름 앞에 추가되는 **접두사**입니다. 예를들어 컨트롤러에서 "home"이라는 뷰 이름을 반환하면, 실제 JSP 파일 경로는 `/WEB-INF/jsp/sharon/pj/home.jsp`가 됩니다.
+---
 
-4. **`setSuffix(".jsp")`**
-   - 반환된 뷰 이름 뒤에 추가되는 **접미사**입니다. 접두사와 함께 사용되어 실제 JSP 파일 경로를 결정합니다.
+### 3. **InternalResourceViewResolver**
+- 이 뷰 리졸버는 **InternalResourceView**를 반환합니다.
+
+---
+
+### 4. **뷰 - InternalResourceView**
+- **InternalResourceView**는 JSP와 같은 리소스를 처리할 때 사용됩니다.
+- `forward()` 메서드를 호출하여 요청을 JSP로 포워딩합니다.
+
+---
+
+### 5. **`view.render()` 호출**
+- `view.render()`가 호출되며, **InternalResourceView**는 `forward()`를 통해 JSP를 실행합니다.
+
+---
 

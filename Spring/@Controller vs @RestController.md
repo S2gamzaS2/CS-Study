@@ -1,5 +1,5 @@
 @Controller vs @RestController
-=============
+============
 
 ## 1. @Controller
 > @Controller란?
