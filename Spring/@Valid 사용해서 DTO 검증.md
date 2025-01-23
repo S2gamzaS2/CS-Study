@@ -153,3 +153,13 @@ public class GlobalExceptionHandler {
 
 - **Cascading Validation** <br>
   중첩된 객체의 필드를 재귀적으로 검증하려면 상위 객체 필드에 반드시 `@Valid`를 추가
+
+<br>
+
+### 참고 자료
+
+https://hello-judy-world.tistory.com/217
+
+https://mangkyu.tistory.com/174
+
+https://shyun00.tistory.com/216?category=1228838
