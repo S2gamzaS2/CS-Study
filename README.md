@@ -20,7 +20,7 @@
 - [Blocking & Non-Blocking I/O](https://github.com/S2gamzaS2/CS-Study/blob/main/Network/Blocking%20%26%20Non-Blocking.md)
 
 ### 🔸 운영체제
-- [운영체제와 컴퓨터](https://github.com/S2gamzaS2/CS-Study/blob/main/Network/%EB%8C%80%EC%B9%AD%ED%82%A4%20%26%20%EA%B3%B5%EA%B0%9C%ED%82%A4.md)
+- [운영체제와 컴퓨터](https://github.com/S2gamzaS2/CS-Study/blob/main/OperatingSystem/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%EC%99%80%20%EC%BB%B4%ED%93%A8%ED%84%B0.md)
 - [메모리 계층](https://github.com/S2gamzaS2/CS-Study/blob/main/OperatingSystem/%EB%A9%94%EB%AA%A8%EB%A6%AC%20%EA%B3%84%EC%B8%B5.md)
 - [프로세스와 스레드](https://github.com/S2gamzaS2/CS-Study/blob/main/OperatingSystem/%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4%EC%99%80%20%EC%8A%A4%EB%A0%88%EB%93%9C.md)
 - [CPU 스케줄링 알고리즘](https://github.com/S2gamzaS2/CS-Study/blob/main/OperatingSystem/CPU%20%EC%8A%A4%EC%BC%80%EC%A4%84%EB%A7%81%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98.md)
@@ -78,25 +78,25 @@
 ### 🔸 Spring
 - [웹 애플리케이션 이해](https://github.com/S2gamzaS2/CS-Study/blob/main/Spring/%EC%9B%B9%20%EC%95%A0%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98%20%EC%9D%B4%ED%95%B4.md)
 - [Servlet](https://github.com/S2gamzaS2/CS-Study/blob/main/Spring/Servlet.md)
-- JSP
-- MVC 패턴
+- [JSP](https://github.com/S2gamzaS2/CS-Study/blob/main/Spring/JSP.md)
+- [MVC 패턴](https://github.com/S2gamzaS2/CS-Study/blob/main/Spring/MVC%20%ED%8C%A8%ED%84%B4.md)
 - [ApplicationContext](https://github.com/S2gamzaS2/CS-Study/blob/main/Spring/ApplicationContext.md)
 - [PSA, IoC, AOP, POJO](https://github.com/S2gamzaS2/CS-Study/blob/main/Spring/POJO%2C%20PSA%2C%20IoC%2C%20AOP.md)
 - [Bean(Scope)](https://github.com/S2gamzaS2/CS-Study/blob/main/Spring/Bean(Scope).md)
-- Filter, Interceptor
+- [Filter, Interceptor](https://github.com/S2gamzaS2/CS-Study/blob/main/Spring/Filter%2C%20Interceptor.md)
 - [@Autowired 주입 방법별 차이(Field, Setter, Constructor Injection)](https://github.com/S2gamzaS2/CS-Study/blob/main/Spring/%40Autowired%20%EC%A3%BC%EC%9E%85%20%EB%B0%A9%EB%B2%95%EB%B3%84%20%EC%B0%A8%EC%9D%B4(Field%2C%20Setter%2C%20Constructor%20Injection).md)
 - [Spring vs Spring Boot](https://github.com/S2gamzaS2/CS-Study/blob/main/Spring/Spring%20vs%20Spring%20Boot.md)
 - [Web MVC 요청 처리 과정(DispatcherServlet을 중심으로)](https://github.com/S2gamzaS2/CS-Study/blob/main/Spring/Web%20MVC%20%EC%9A%94%EC%B2%AD%20%EC%B2%98%EB%A6%AC%20%EA%B3%BC%EC%A0%95(DispatcherServlet%EC%9D%84%20%EC%A4%91%EC%8B%AC%EC%9C%BC%EB%A1%9C).md)
 - [@Controller vs @RestController](https://github.com/S2gamzaS2/CS-Study/blob/main/Spring/%40Controller%20vs%20%40RestController.md)
 - [ViewResolver](https://github.com/S2gamzaS2/CS-Study/blob/main/Spring/ViewResolver.md)
-- @Valid 사용해서 DTO 검증
+- [@Valid 사용해서 DTO 검증](https://github.com/S2gamzaS2/CS-Study/blob/main/Spring/%40Valid%20%EC%82%AC%EC%9A%A9%ED%95%B4%EC%84%9C%20DTO%20%EA%B2%80%EC%A6%9D.md)
 - [Spring Security 개념, 인증 처리 과정, currentUser 정보](https://github.com/S2gamzaS2/CS-Study/blob/main/Spring/Spring%20Security.md)
 
 ### 🔸 JPA
 - [JPA와 Hibernate](https://github.com/S2gamzaS2/CS-Study/blob/main/JPA/JPA%EC%99%80%20Hibernate.md)
 - [영속성 컨텍스트(캐시, 동일성보장, 변경감지, 트랜잭션 지연)](https://github.com/S2gamzaS2/CS-Study/blob/main/JPA/%EC%98%81%EC%86%8D%EC%84%B1%20%EC%BB%A8%ED%85%8D%EC%8A%A4%ED%8A%B8(%EC%BA%90%EC%8B%9C%2C%20%EB%8F%99%EC%9D%BC%EC%84%B1%EB%B3%B4%EC%9E%A5%2C%20%EB%B3%80%EA%B2%BD%EA%B0%90%EC%A7%80%2C%20%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98%20%EC%A7%80%EC%97%B0).md)
 - [Eager, Lazy Loading](https://github.com/S2gamzaS2/CS-Study/blob/main/JPA/Eager%2C%20Lazy%20Loading.md)
-- n+1 문제
+- [n+1 문제](https://github.com/S2gamzaS2/CS-Study/blob/main/JPA/n%2B1%20%EB%AC%B8%EC%A0%9C.md)
 - [다대다 해결 전략](https://github.com/S2gamzaS2/CS-Study/blob/main/JPA/%EB%8B%A4%EB%8C%80%EB%8B%A4%20%ED%95%B4%EA%B2%B0%20%EC%A0%84%EB%9E%B5.md)
 - JPA의 캐시
 
