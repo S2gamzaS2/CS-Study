@@ -55,7 +55,7 @@
 - [객체지향(상속, 다형성, 캡슐화 등)](https://github.com/S2gamzaS2/CS-Study/blob/main/Java/%EA%B0%9D%EC%B2%B4%EC%A7%80%ED%96%A5(%EC%83%81%EC%86%8D%2C%20%EB%8B%A4%ED%98%95%EC%84%B1%2C%20%EC%BA%A1%EC%8A%90%ED%99%94%20%EB%93%B1).md)
 - [JVM 메모리 구조](https://github.com/S2gamzaS2/CS-Study/blob/main/Java/JVM%20%EB%A9%94%EB%AA%A8%EB%A6%AC%20%EA%B5%AC%EC%A1%B0.md)
 - [컴파일 과정](https://github.com/S2gamzaS2/CS-Study/blob/main/Java/%EC%BB%B4%ED%8C%8C%EC%9D%BC%20%EA%B3%BC%EC%A0%95.md)
-- [다양한 GC(parellel, g1gc 등)](https://github.com/S2gamzaS2/CS-Study/blob/main/Java/%EB%8B%A4%EC%96%91%ED%95%9C%20GC(parellel%2C%20g1gc%20%EB%93%B1)%2015d82afb1da38009942ec48187767c16.md)
+- [다양한 GC(parellel, g1gc 등)](https://github.com/S2gamzaS2/CS-Study/blob/main/Java/%EB%8B%A4%EC%96%91%ED%95%9C%20GC(parellel%2C%20g1gc%20%EB%93%B1).md)
 - [JRE, JDK, JVM의 구분](https://github.com/S2gamzaS2/CS-Study/blob/main/Java/JRE%2C%20JDK%2C%20JVM%EC%9D%98%20%EA%B5%AC%EB%B6%84.md)
 - [자바 메모리관리(Xms, Xmx)](https://github.com/S2gamzaS2/CS-Study/blob/main/Java/%EC%9E%90%EB%B0%94%20%EB%A9%94%EB%AA%A8%EB%A6%AC%EA%B4%80%EB%A6%AC(Xms%2C%20Xmx)%2015d82afb1da380248696c284c09e1b9e.md)
 - [Call by Value vs Call by Reference](https://github.com/S2gamzaS2/CS-Study/blob/main/Java/call%20by%20value%20%20VS%20call%20by%20reference.md)
