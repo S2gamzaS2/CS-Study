@@ -57,7 +57,7 @@
 - [컴파일 과정](https://github.com/S2gamzaS2/CS-Study/blob/main/Java/%EC%BB%B4%ED%8C%8C%EC%9D%BC%20%EA%B3%BC%EC%A0%95.md)
 - [다양한 GC(parellel, g1gc 등)](https://github.com/S2gamzaS2/CS-Study/blob/main/Java/%EB%8B%A4%EC%96%91%ED%95%9C%20GC(parellel%2C%20g1gc%20%EB%93%B1).md)
 - [JRE, JDK, JVM의 구분](https://github.com/S2gamzaS2/CS-Study/blob/main/Java/JRE%2C%20JDK%2C%20JVM%EC%9D%98%20%EA%B5%AC%EB%B6%84.md)
-- [자바 메모리관리(Xms, Xmx)](https://github.com/S2gamzaS2/CS-Study/blob/main/Java/%EC%9E%90%EB%B0%94%20%EB%A9%94%EB%AA%A8%EB%A6%AC%EA%B4%80%EB%A6%AC(Xms%2C%20Xmx)%2015d82afb1da380248696c284c09e1b9e.md)
+- [자바 메모리관리(Xms, Xmx)](https://github.com/S2gamzaS2/CS-Study/blob/main/Java/%5BJava%5D%20%EC%9E%90%EB%B0%94%20%EB%A9%94%EB%AA%A8%EB%A6%AC%EA%B4%80%EB%A6%AC(Xms%2C%20Xmx).md)
 - [Call by Value vs Call by Reference](https://github.com/S2gamzaS2/CS-Study/blob/main/Java/call%20by%20value%20%20VS%20call%20by%20reference.md)
 - [String Immutable(String constant pool, "a" vs new String("a"))](https://github.com/S2gamzaS2/CS-Study/blob/main/Java/String%20Immutable(String%20constant%20pool%2C%20%22a%22%20vs%20new%20String(%22a%22)).md)
 - [Auto Boxing & UnBoxing](https://github.com/S2gamzaS2/CS-Study/blob/main/Java/AutoBoxing%20%26%20UnBoxing.md)
