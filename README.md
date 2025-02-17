@@ -59,7 +59,7 @@
 - [JRE, JDK, JVM의 구분](https://github.com/S2gamzaS2/CS-Study/blob/main/Java/JRE%2C%20JDK%2C%20JVM%EC%9D%98%20%EA%B5%AC%EB%B6%84.md)
 - [자바 메모리관리(Xms, Xmx)](https://github.com/S2gamzaS2/CS-Study/blob/main/Java/%5BJava%5D%20%EC%9E%90%EB%B0%94%20%EB%A9%94%EB%AA%A8%EB%A6%AC%EA%B4%80%EB%A6%AC(Xms%2C%20Xmx).md)
 - [Call by Value vs Call by Reference](https://github.com/S2gamzaS2/CS-Study/blob/main/Java/call%20by%20value%20%20VS%20call%20by%20reference.md)
-- [String Immutable(String constant pool, "a" vs new String("a"))](https://github.com/S2gamzaS2/CS-Study/blob/main/Java/String%20Immutable(String%20constant%20pool%2C%20%22a%22%20vs%20new%20String(%22a%22)).md)
+- [String Immutable(String constant pool, "a" vs new String("a"))](https://github.com/S2gamzaS2/CS-Study/blob/main/Java/String%20Immutable(String%20constant%20pool%2C%20_a_%20vs%20new%20String(_a_)).md)
 - [Auto Boxing & UnBoxing](https://github.com/S2gamzaS2/CS-Study/blob/main/Java/AutoBoxing%20%26%20UnBoxing.md)
 - [Error vs Exception](https://github.com/S2gamzaS2/CS-Study/blob/main/Java/Error%20vs%20Exception.md)
 - [Checked vs UnChecked Exception](https://github.com/S2gamzaS2/CS-Study/blob/main/Java/Checked%20vs%20UnChecked%20Exception.md)
