@@ -72,7 +72,7 @@
 - [Reflection(Annotation)](https://github.com/S2gamzaS2/CS-Study/blob/main/Java/%5BJava%5D%20Reflection(Annotation).md)
 - [Collection Framework(List, Map, Set)](https://github.com/S2gamzaS2/CS-Study/blob/main/Java/Collection%20Framework(List%2C%20Map%2C%20Set).md)
 - [HashMap](https://github.com/S2gamzaS2/CS-Study/blob/main/Java/HashMap.md)
-- [Abstract Class vs Interface](https://github.com/S2gamzaS2/CS-Study/blob/main/Java/HashMap.md)
+- [Abstract Class vs Interface](https://github.com/S2gamzaS2/CS-Study/blob/main/Java/Abstract%20Class%20vs%20Interface.md)
 - [CountDownLatch & CyclicBarrier](https://github.com/S2gamzaS2/CS-Study/blob/main/Java/CountDownLatch%20%26%20CycleBarrier.md)
 
 ### 🔸 Spring
