@@ -98,7 +98,7 @@
 - [Eager, Lazy Loading](https://github.com/S2gamzaS2/CS-Study/blob/main/JPA/Eager%2C%20Lazy%20Loading.md)
 - [n+1 문제](https://github.com/S2gamzaS2/CS-Study/blob/main/JPA/n%2B1%20%EB%AC%B8%EC%A0%9C.md)
 - [다대다 해결 전략](https://github.com/S2gamzaS2/CS-Study/blob/main/JPA/%EB%8B%A4%EB%8C%80%EB%8B%A4%20%ED%95%B4%EA%B2%B0%20%EC%A0%84%EB%9E%B5.md)
-- JPA의 캐시
+- [JPA의 캐시](https://github.com/S2gamzaS2/CS-Study/blob/main/JPA/JPA%EC%9D%98%20%EC%BA%90%EC%8B%9C.md)
 
 <br>
 
